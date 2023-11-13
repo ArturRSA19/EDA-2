@@ -68,3 +68,15 @@ struct no* create_no(int dado) // create a no for tree
 	new_n->dir = NULL;
 	return (new_n);
 }
+
+// int main() 
+// {
+//     no* raiz;
+// 	raiz = create_node(8);
+// 	raiz->esq = create_node(5);
+// 	raiz->dir = create_node(4);
+// 	raiz->esq->esq = create_node(7);
+// 	raiz->esq->dir = create_node(6);
+// 	Inorder(raiz); 
+// 	return 0;
+// }
